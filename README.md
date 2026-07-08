@@ -230,6 +230,6 @@ Smartbridge-Salesforce-AI-Powered-Customer-Support
 
 # Author
 
-**M Srikar Bharadwaj**
+**Munjuluri Srikar Bharadwaj**
 
 </div>
