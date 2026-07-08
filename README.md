@@ -1,12 +1,12 @@
 <div align="center">
 
-# AI-Powered Customer Support & Service Automation
+# AI-Driven Customer Support and Service Automation System
 
 ### Salesforce Service Cloud | Flows | Prompt Builder | Reports | Dashboards
 
-*A Salesforce-based intelligent customer support automation system developed for an Electronics & Gadgets company.*
+*A Salesforce-based smart customer service automation solution designed for an Electronics and Gadgets business.*
 
-![Salesforce](https://img.shields.io/badge/Salesforce-Service%20Cloud-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)
+![Salesforce](https://img.shields.io/badge/Salesforce-Service%20Cloud-00A1E0?style=for-the-badge\&logo=salesforce\&logoColor=white)
 ![Prompt Builder](https://img.shields.io/badge/Prompt-Builder-0176D3?style=for-the-badge)
 ![Flow](https://img.shields.io/badge/Record%20Triggered-Flows-blue?style=for-the-badge)
 ![Status](https://img.shields.io/badge/Project-Completed-success?style=for-the-badge)
@@ -17,9 +17,9 @@
 
 # Project Overview
 
-The **AI-Powered Customer Support & Service Automation** system is developed using **Salesforce Service Cloud** to automate customer support operations for an international Electronics & Gadgets company.
+The **AI-Driven Customer Support and Service Automation System** is built using **Salesforce Service Cloud** to simplify and automate customer support activities for an international Electronics and Gadgets company.
 
-The application centralizes customer support by managing customers, products, orders, and support cases while automating workflows using Salesforce Flows, Queues, Validation Rules, Approval Processes, and AI-powered summaries with **Prompt Builder**.
+This project provides a centralized platform to manage customers, products, orders, and support cases. It improves service operations by using Salesforce features such as Flows, Queues, Validation Rules, Approval Processes, Reports, Dashboards, and AI-based case summaries through **Prompt Builder**.
 
 ---
 
@@ -27,53 +27,53 @@ The application centralizes customer support by managing customers, products, or
 
 ### Customer Management
 
-- Customer Information
-- Contact Details
-- Customer Type
-- Country Information
+* Stores customer details
+* Maintains contact information
+* Tracks customer type
+* Records country-based customer data
 
 ### Product Management
 
-- Product Catalog
-- Categories
-- Pricing
-- Warranty Information
-- Stock Management
+* Manages product catalog
+* Organizes product categories
+* Stores product pricing
+* Maintains warranty information
+* Tracks available stock quantity
 
 ### Order Management
 
-- Order Tracking
-- Customer Lookup
-- Product Lookup
-- Order Status
-- Total Amount
+* Handles order records
+* Links orders with customers
+* Connects products with orders
+* Tracks order status
+* Maintains total order amount
 
-### User Case Management
+### Support Case Management
 
-- Issue Tracking
-- Priority Management
-- Status Tracking
-- Resolution Details
-- AI Summary Generation
+* Records customer issues
+* Manages case priority
+* Tracks case status
+* Stores resolution details
+* Generates AI-based case summaries
 
 ### Automation
 
-- Record Triggered Flows
-- Queue-Based Assignment
-- Approval Workflow
-- Validation Rules
+* Record-Triggered Flows
+* Queue-based case assignment
+* Approval process automation
+* Business validation rules
 
 ### AI Features
 
-- Salesforce Prompt Builder
-- AI Summary Generation
-- Intelligent Customer Support Assistance
+* Salesforce Prompt Builder integration
+* AI-generated case summaries
+* Intelligent assistance for support teams
 
 ### Analytics
 
-- Reports
-- Dashboards
-- Support Insights
+* Salesforce Reports
+* Interactive Dashboards
+* Customer support insights
 
 ---
 
@@ -89,10 +89,10 @@ Order
 Product
     │
     ▼
-User Case
+Support Case
     │
     ├── Validation Rules
-    ├── Record Triggered Flow
+    ├── Record-Triggered Flow
     ├── Queues
     ├── Approval Process
     └── Prompt Builder
@@ -104,41 +104,41 @@ User Case
 
 ## Customer
 
-- Customer Name
-- Email
-- Phone
-- Country
-- Customer Type
+* Customer Name
+* Email Address
+* Phone Number
+* Country
+* Customer Type
 
 ## Product
 
-- Product Name
-- Category
-- Price
-- Warranty Expiry
-- Stock Quantity
+* Product Name
+* Product Category
+* Price
+* Warranty Expiry Date
+* Stock Quantity
 
 ## Order
 
-- Order Number
-- Customer
-- Product
-- Order Date
-- Status
-- Total Amount
+* Order Number
+* Customer Lookup
+* Product Lookup
+* Order Date
+* Order Status
+* Total Amount
 
-## User Case
+## Support Case
 
-- Case Number
-- Customer
-- Product
-- Order
-- Issue Type
-- Priority
-- Status
-- Description
-- Resolution
-- AI Summary
+* Case Number
+* Customer
+* Product
+* Order
+* Issue Type
+* Priority
+* Status
+* Description
+* Resolution
+* AI Summary
 
 ---
 
@@ -146,77 +146,79 @@ User Case
 
 ### Validation Rules
 
-- Description required for Critical cases
-- Product required for Warranty cases
-- Resolution required before closing cases
+* Description is mandatory for Critical cases
+* Product selection is required for Warranty-related cases
+* Resolution details must be entered before closing a case
 
-### Record Triggered Flow
+### Record-Triggered Flow
 
-- Processes newly created User Cases
-- Automates business logic
-- Updates records automatically
+* Executes when a new support case is created
+* Automates case-related business logic
+* Updates records based on defined conditions
 
 ### Queues
 
-- Damage Support Queue
-- Warranty Support Queue
-- Order Support Queue
+* Damage Support Queue
+* Warranty Support Queue
+* Order Support Queue
 
 ### Approval Process
 
-- Critical support cases
-- Automated approval workflow
+* Handles Critical support cases
+* Routes cases through an automated approval workflow
+* Ensures proper review before final action
 
 ---
 
 # AI Integration
 
-Salesforce **Prompt Builder** is used to generate professional AI summaries for customer support cases.
+Salesforce **Prompt Builder** is used to create professional AI-generated summaries for customer support cases.
 
-The generated summary includes:
+The AI summary includes:
 
-- Case Information
-- Issue Description
-- Priority
-- Current Status
+* Case details
+* Customer issue description
+* Priority level
+* Current case status
 
 ---
 
-# Reports & Dashboard
+# Reports and Dashboard
 
 ### Reports
 
-- User Cases by Status
-- Orders by Status
-- Products by Category
+* Support Cases by Status
+* Orders by Status
+* Products by Category
 
 ### Dashboard
 
 **Customer Support Dashboard**
 
-Displays:
+The dashboard displays:
 
-- Case Status Distribution
-- Order Status Overview
-- Product Category Distribution
+* Case status distribution
+* Order status overview
+* Product category distribution
+* Key support performance insights
 
 ---
 
 # Security
 
-The application implements:
+The application includes basic Salesforce security configuration such as:
 
-- System Administrator Profile
-- Object-Level Security
-- Field-Level Security
-- Queue Membership
+* System Administrator Profile
+* Object-Level Security
+* Field-Level Security
+* Queue Membership Access
 
 ---
 
 # Repository Structure
 
 ```text
- Smartbridge-Salesforce-AI-Powered-Customer-Support
+Smartbridge-Salesforce-AI-Powered-Customer-Support
 │
 ├── 📄 README.md
 ├── 📁 Documentation
@@ -228,6 +230,6 @@ The application implements:
 
 # Author
 
-**Poojith Varma**
+**M Srikar Bharadwaj**
 
 </div>
